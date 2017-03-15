@@ -1,0 +1,27 @@
+{
+  "name": "ansa",
+  "version": "0.0.0",
+  "description": "Full stack TypeScript framework",
+  "main": "framework/dist/index.js",
+  "scripts": {
+    "build": "npm run tsc",
+    "build:watch": "npm run tsc:watch",
+    "preinstall": "npm prune",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc --project framework/tsconfig.json",
+    "tsc:watch": "tsc --watch --project framework/tsconfig.json"
+  },
+  "author": "jasonroyle",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "1.1.2",
+    "fs-extra": "2.0.0",
+    "yargs": "6.6.0"
+  },
+  "devDependencies": {
+    "@types/colors": "1.1.1",
+    "@types/fs-extra": "0.0.37",
+    "@types/node": "6.0.57",
+    "@types/yargs": "6.5.0"
+  }
+}
